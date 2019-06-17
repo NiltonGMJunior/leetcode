@@ -7,10 +7,13 @@
 #include <string>
 #include <iostream>
 
-class Solution {
+class Solution
+{
 public:
-    int lengthOfLongestSubstring(std::string s) {
+    int lengthOfLongestSubstring(std::string s)
+    {
         // Naive solution (not very good O(n^2)).
+    }
 };
 
 int main(int argc, char const *argv[])
