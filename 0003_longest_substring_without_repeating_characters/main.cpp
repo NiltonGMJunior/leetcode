@@ -6,6 +6,9 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+
+// TODO: Find a naive solution. Optimize the solution.
 
 class Solution
 {
