@@ -22,10 +22,14 @@ public:
         
         // Stack for the values
         std::stack<int> ordered_stack;
+    
+        // Number of elements in the stack
         int stack_size = 0;
 
+        // Loops until the number of itens in the stack is equal to the target
         while (stack_size < target)
         {
+            // If there are elements in both vectors
             if (!nums1.empty() && !nums2.empty())
             {
                 if (nums1[0] <= nums2[0])
@@ -52,6 +56,8 @@ public:
             stack_size++;
         }
     }
+
+    
 };
 
 int main(int argc, char const *argv[])
