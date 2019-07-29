@@ -15,10 +15,9 @@ public:
     vector<int> flipVector(vector<int> &v)
     {
         vector<int> flipped_vector(v);
-        for (int i = 0; i < v.size() / 2; ++i)
+        for (int i = 0; i < v.size(); ++i)
         {
             flipped_vector[i] = v[v.size() - 1 - i];
-            flipped_vector[i - v.size() - i] = v[i];
         }
         return flipped_vector;
     }
@@ -48,6 +47,26 @@ public:
 
 int main(int argc, char const *argv[])
 {
+    // int n;
+    // cin >> n;
+    // vector<int> v;
+
+    // for (int i = 0; i < n; ++i)
+    // {
+    //     int element;
+    //     cin >> element;
+    //     v.push_back(element);
+    // }
+
+    // Solution test;
+    // vector<int> new_vector = test.flipVector(v);
+
+    // for (int i = 0; i < n; ++i)
+    // {
+    //     cout << new_vector[i] << ' ';
+    // }
+    // cout << '\n';
+
     int m, n;
     cin >> m >> n;
     vector<vector<int>> matrix;
